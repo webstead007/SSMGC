@@ -22,4 +22,8 @@ app.use(notFound);
 app.use(errorHandler);
 
 try { await connectDatabase(); } catch (error) { console.error('MongoDB connection failed:', error.message); }
-app.listen(port, () => console.log(`SSMGC API listening on port ${port}.`));
+if (!process.env.VERCEL) {
+  app.listen(port, () => console.log(`SSMGC API listening on port ${port}.`));
+}
+
+export default app;
