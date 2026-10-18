@@ -441,6 +441,16 @@ Skilled engineers, technicians and supervisors, alongside general labour and hel
 Object.assign(translations, Object.fromEntries(scopes.trim().split('\n').map(line => line.split(' => '))));
 
 Object.assign(translations, {
+  'Align on your requirements, site conditions and priorities before work begins.': 'نتفق على متطلباتك وظروف الموقع والأولويات قبل بدء العمل.',
+  'Bring the right people, materials and equipment together around the agreed scope.': 'ننسق الكوادر والمواد والمعدات المناسبة وفق نطاق العمل المتفق عليه.',
+  'Coordinate site activities with attention to safety, quality and clear communication.': 'ننسق أنشطة الموقع مع الاهتمام بالسلامة والجودة ووضوح التواصل.',
+  'Coordinate final checks and documentation to support a clear project handover.': 'ننسق الفحوصات النهائية والوثائق لدعم تسليم المشروع بوضوح.',
+  'Explore this stage': 'استكشف هذه المرحلة',
+  'Care in every detail, from planning through to delivery.': 'عناية بكل التفاصيل، من التخطيط وحتى التسليم.',
+  'People and safe working practices come first.': 'سلامة الأفراد وممارسات العمل الآمنة تأتي أولاً.',
+  'Clear responsibilities and dependable project support.': 'مسؤوليات واضحة ودعم موثوق للمشروع.',
+  'Skilled teams working together with purpose.': 'فرق متمكنة تعمل معاً لتحقيق أهداف المشروع.',
+  'Listening closely and building around your project needs.': 'نستمع بعناية ونركز على احتياجات مشروعك.',
   'SSMGC | Construction, Engineering & Industrial Services Saudi Arabia': 'SSMGC | الإنشاءات والهندسة والخدمات الصناعية في السعودية',
   'SSMGC delivers civil construction, structural works, MEP, EPC contracting, industrial maintenance and support services across Saudi Arabia.': 'تقدم SSMGC الإنشاءات المدنية والأعمال الإنشائية والكهروميكانيكية ومقاولات الهندسة والمشتريات والإنشاء والصيانة الصناعية وخدمات الدعم في المملكة العربية السعودية.',
   'About SSMGC | Construction & Industrial Services': 'عن SSMGC | الإنشاءات والخدمات الصناعية',
